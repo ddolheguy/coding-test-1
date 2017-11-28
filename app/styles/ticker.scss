@@ -1,0 +1,46 @@
+.ticker {
+	h1 {
+		margin: 0;
+	}
+	.connection-status {
+		display: flex;
+		flex-direction: row;
+		border-top: 1px solid #393939;
+		padding: 10px 0;
+		margin-top: 50px;
+		&.connected {
+			color: green;
+		}
+		&.disconnected {
+			color: red;
+		}
+		span {
+			color: #393939;
+			margin-right: 5px;
+		}
+	}
+
+	.ticker-data {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		padding-left: 10px;
+		width: 300px;
+		li {
+			display: flex;
+			justify-content: space-between;
+			padding: 3px 0;
+			span {
+				&.up {
+					color: green;
+				}
+				&.down {
+					color: red;
+				}
+			}
+			&:nth-child(even) {
+				background-color: #eeeeee;
+			}
+		}
+	}
+}
