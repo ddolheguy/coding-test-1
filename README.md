@@ -1,4 +1,4 @@
-# Standard Chartered Pricing Blotter
+# Streaming Pricing Blotter Test
 A boilerplate for displaying price data using react, redux and react-router with the help of webpack.
 
 Contains: 
